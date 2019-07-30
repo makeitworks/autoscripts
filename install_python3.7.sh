@@ -6,7 +6,7 @@ sudo apt install -y libffi-dev zlib1g-dev libsqlite3-dev   #python.3.7.4 require
 
 python="Python-3.7.4"
 python_url="https://www.python.org/ftp/python/3.7.4/Python-3.7.4.tgz"
-python_prefix="/usr/local/python346"
+python_prefix="/usr/local/python374"
 wget --no-check-certificate ${python_url} -O ~/Downloads/${python}".tgz"
 cd ~/Downloads
 tar zxf ${python}".tgz"
