@@ -13,6 +13,7 @@
 ./install_python.sh
 ./link_python.sh
 
-
+./install_mariadb.sh
+./install_mysql_driver.sh
 
 
