@@ -1,9 +1,9 @@
 #!/bin/sh
 
-# #python 3.7.4
+# python 3.7.4
 
-# sudo apt install -y libffi-dev zlib1g-dev libsqlite3-dev   #python.3.7.4 requirements
-sudo apt install -y libffi-dev  libsqlite3-dev
+# python.3.7.4 requirements
+sudo apt install -y libffi-dev  libsqlite3-dev zlib1g-dev  
 
 python="Python-3.7.4"
 python_url="https://www.python.org/ftp/python/3.7.4/Python-3.7.4.tgz"
