@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 source ./paths.sh
 
@@ -25,3 +25,6 @@ sudo make install
 make clean
 make distclean
 
+sudo ln -s ${libpng_prefix}"/bin/libpng16-config" /usr/bin/libpng16-config
+sudo ln -s ${libpng_prefix}"/lib/pkgconfig/libpng.pc" /usr/lib/pkgconfig/libpng.pc
+sudo ln -s ${libpng_prefix}"/lib/pkgconfig/libpng16.pc" /usr/lib/pkgconfig/libpng16.pc

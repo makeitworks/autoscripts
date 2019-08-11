@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # pcre 8.43
 

@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 sudo rm -rf /usr/bin/python 
 sudo rm -rf /usr/bin/pip

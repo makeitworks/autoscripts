@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 sudo rm -rf /usr/bin/openssl
 sudo ln -s /usr/local/ssl/bin/openssl /usr/bin/openssl

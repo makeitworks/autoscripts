@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 #zlib
 #http://www.zlib.net/zlib-1.2.11.tar.gz
@@ -14,3 +14,7 @@ pwd
 make 
 sudo make install
 
+make clean
+make distclean
+
+sudo ln -s ${zlib_prefix}/lib/pkgconfig/zlib.pc /usr/lib/pkgconfig/zlib.pc

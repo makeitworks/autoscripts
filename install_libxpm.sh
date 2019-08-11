@@ -1,16 +1,19 @@
-#!/bin/sh
+#!/bin/bash
 
-libxpm="libXpm-3.5.11"
-libxpm_url="https://github.com/freedesktop/libXpm/archive/libXpm-3.5.11.tar.gz"
-libxpm_prefix="/usr/local/libxpm"
+#requires
+# sudo apt install -y libx11-dev
 
-# wget --no-check-certificate ${libxpm_url} -O ~/Downloads/${libxpm}".tar.gz"
+libxpm="libXpm-3.5.12"
+libxpm_url="https://www.x.org/archive/individual/lib/libXpm-3.5.12.tar.gz"
+libxpm_prefix="/usr/local/libXpm"
+
+wget --no-check-certificate ${libxpm_url} -O ~/Downloads/${libxpm}".tar.gz"
 
 cd ~/Downloads
 
-# tar zxf ${libxpm}".tar.gz"
+tar zxf ${libxpm}".tar.gz"
 
-cd libXpm-libXpm-3.5.11
+cd ${libxpm}
 
 ./configure --prefix=${libxpm_prefix}
 make 
@@ -18,3 +21,5 @@ sudo make install
 
 make clean 
 make distclean
+
+sudo ln -s ${libxpm_prefix}"/lib/pkgconfig/xpm.pc" /usr/lib/pkgconfig/xpm.pc

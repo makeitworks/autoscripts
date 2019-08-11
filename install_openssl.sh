@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # openssl
 https://www.openssl.org/source/openssl-1.1.1c.tar.gz

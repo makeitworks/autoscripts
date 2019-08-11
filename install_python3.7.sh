@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # python 3.7.4
 
@@ -16,3 +16,7 @@ cd ${python}
 ./configure --prefix=${python_prefix} #--enable-loadable-sqlite-extensions
 make
 sudo make install
+
+make clean
+make distclean
+

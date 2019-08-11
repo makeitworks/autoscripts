@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # sudo command auto fill password,  use option "-S"
 #  echo 1 | sudo -S find / -name "helloworld"
