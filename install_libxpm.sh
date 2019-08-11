@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #requires
-# sudo apt install -y libx11-dev
+sudo apt install -y libx11-dev
 
 libxpm="libXpm-3.5.12"
 libxpm_url="https://www.x.org/archive/individual/lib/libXpm-3.5.12.tar.gz"

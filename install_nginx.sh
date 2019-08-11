@@ -7,11 +7,12 @@ source ./paths.sh
 nginx="nginx-1.16.0"
 nginx_url="http://nginx.org/download/nginx-1.16.0.tar.gz"
 nginx_prefix="/usr/local/nginx"
-# wget --no-check-certificate ${nginx_url} -O ~/Downloads/${nignx}".tar.gz"
+
+wget --no-check-certificate ${nginx_url} -O ~/Downloads/${nignx}".tar.gz"
 
 cd ~/Downloads
 
-# tar zxf ${nignx}".tar.gz"
+tar zxf ${nignx}".tar.gz"
 cd ${nginx}
 
 ./configure --prefix=${nginx_prefix} \
