@@ -17,4 +17,4 @@ sudo make install
 make clean
 make distclean
 
-sudo ln -s ${zlib_prefix}/lib/pkgconfig/zlib.pc /usr/lib/pkgconfig/zlib.pc
+sudo ln -s $zlib_prefix"/lib/pkgconfig/zlib.pc" /usr/lib/pkgconfig/zlib.pc
