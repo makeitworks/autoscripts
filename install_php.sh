@@ -42,3 +42,8 @@ cd ${php}
 make
 sudo make install
 
+
+sudo ln -s $php_prefix"/bin/php" /usr/bin/php
+sudo ln -s $php_prefix"/bin/php-config" /usr/bin/php-config  phar.phar
+
+
