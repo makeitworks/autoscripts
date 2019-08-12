@@ -40,3 +40,5 @@ cd ${php}
 
 
 make
+sudo make install
+
