@@ -18,9 +18,9 @@ make
 sudo make install
 
 make clean
-make distclean
+#make distclean
 
-
+sudo rm -rf /usr/bin/curl
 sudo ln -s ${curl_prefix}"/bin/curl"  /usr/bin/curl
 sudo ln -s ${curl_prefix}"/bin/curl-config"  /usr/bin/curl-config
 

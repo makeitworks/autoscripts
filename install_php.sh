@@ -10,10 +10,10 @@ php="php-7.1.31"
 php_url="https://www.php.net/distributions/php-7.1.31.tar.gz"
 php_prefix="/usr/local/php"
 
-# wget --no-check-certificate ${php_url} -O ~/Downloads/${php}".tar.gz"
+#wget --no-check-certificate ${php_url} -O ~/Downloads/${php}".tar.gz"
 
 cd ~/Downloads
-# tar zxf ${php}".tar.gz"
+#tar zxf ${php}".tar.gz"
 cd ${php}
 
 ./configure --prefix=${php_prefix} \

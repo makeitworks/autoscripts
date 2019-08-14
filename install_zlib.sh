@@ -15,6 +15,6 @@ make
 sudo make install
 
 make clean
-make distclean
+#make distclean
 
 sudo ln -s $zlib_prefix"/lib/pkgconfig/zlib.pc" /usr/lib/pkgconfig/zlib.pc
