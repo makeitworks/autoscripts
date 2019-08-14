@@ -18,6 +18,6 @@ cd ${openssl}
 make
 sudo make install
 
-sudo ln -s $openssl_prefix"/lib/pkgconfig/libcrypto.pc"  /usr/lib/pkgconfig/libcrypto.pc
-sudo ln -s $openssl_prefix"/lib/pkgconfig/openssl.pc"  /usr/lib/pkgconfig/openssl.pc
-sudo ln -s $openssl_prefix"/lib/pkgconfig/libssl.pc"  /usr/lib/pkgconfig/libssl.pc
+#sudo ln -s $openssl_prefix"/lib/pkgconfig/libcrypto.pc"  /usr/lib/pkgconfig/libcrypto.pc
+#sudo ln -s $openssl_prefix"/lib/pkgconfig/openssl.pc"  /usr/lib/pkgconfig/openssl.pc
+#sudo ln -s $openssl_prefix"/lib/pkgconfig/libssl.pc"  /usr/lib/pkgconfig/libssl.pc
