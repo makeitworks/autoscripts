@@ -20,6 +20,6 @@ make
 sudo make install
 
 make clean 
-make distclean
+#make distclean
 
 sudo ln -s ${libxpm_prefix}"/lib/pkgconfig/xpm.pc" /usr/lib/pkgconfig/xpm.pc
