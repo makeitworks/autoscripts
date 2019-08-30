@@ -20,7 +20,7 @@ set t_Co=256
 set autoindent
 
 "按下 Tab 键时，Vim 显示的空格数
-set tabstop=2
+set tabstop=4
 
 "在文本上按下>>（增加一级缩进）、<<（取消一级缩进）或者==（取消全部缩进）时，每一级的字符数。
 set shiftwidth=4
